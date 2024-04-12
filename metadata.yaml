@@ -1,0 +1,231 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/CatalogueOfLife/coldp/master/metadata.json
+
+# List of alternative identifiers for the dataset with an ID and an optional type value
+# Supported ID types: DOI, GBIF, COL, PLAZI
+identifier:
+  col: 1010
+  gbif: b96ed603-b710-4b3a-b99b-9bf0de6ef85b
+  plazi: 3378FFAB6B55FFE0B065C77BFF226429
+
+# Full dataset title
+title: The full dataset title
+
+# Short, hopefully unique name for the dataset
+alias: ColDP Example
+
+# Multi parapgraph description / abstract of the dataset
+description: | 
+    An abstract about the content of this dataset.
+    This can be as many paragraphs as you like in literal style YAML.    
+
+# Keywords list. Added in v1.1
+keyword: 
+  - example
+  - taxonomy
+  - invasives
+  - legal
+  - fish
+# Official release date of this version in ISO YYYY-MM-DD. Will be part of the default citation!
+issued: 2023-06-23
+
+# Version name of this copy
+# consider using semantic versioning: https://semver.org/lang/de/ with changes in
+# major version = new/removed files or columns
+# minor version = new records
+# patch version = bug/typo fix in existing records
+# See also https://mds.3riverswetweather.org/atlas/docs/semver/
+version: 2.11.0
+
+# +++ AGENT +++
+#
+# Agent entities are used for many fields below and can be either a person, an organisation or a combination of both.
+# The minimum requirement is either a persons family name, an organisation name or any of the identifiers for them.
+#
+# An agent combines the following fields for a person with fields for an organisation:
+#
+# PERSON fields
+#   orcid: ORCID person ID, https://orcid.org  example: 0000-0001-9745-636X
+#   family: last name
+#   given: first name
+# ORGANISATION fields
+#   rorid: ROR organisation ID, https://ror.org  example: https://ror.org/05fjyn938
+#   organisation: name of the organisation / institution
+#   department: subunit within the organisation, sometimes a project
+#   city: city
+#   state: state or province
+#   country: ISO 2 letter country code
+# SHARED fields
+#   email: email address
+#   url: webpage
+#   note: miscellaneous extra information, used for contributor roles
+#
+# In case no parsed agent can be provided it is permitted to supply a list of simple strings which will then be parsed.
+# For the parsing to given and family name to correctly work it is highly recommended to use one of the following formats:
+# GivenName FamilyName: Only use this in case the last name is a single token. There can be many first names e.g. John Paul Sartre
+# FamilyName, GivenName: Supports any conmplex last name. E.g. Brinch Hansen, Per
+
+
+# Single point of contact for questions
+contact: 
+  given: Markus
+  family: Döring
+  email: mdoering@gbif.org
+  organisation: Global Biodiversity Information Facility
+  city: Berlin
+  country: DE
+
+# Creators of the dataset. Will be treated as authors in the default citation!
+# For available fields see Agent type at the top
+# Please provide an ORCID if you can so it can be included in DOI metadata
+creator:
+  - given: Markus
+    family: Döring
+    email: mdoering@gbif.org
+    orcid: 0000-0003-3756-4793
+    organisation: Global Biodiversity Information Facility
+    city: Berlin
+    country: DE
+  - given: Camila
+    family: Plata
+    email: mdoering@gbif.org
+    orcid: 0000-0003-3756-4793
+    organisation: Global Biodiversity Information Facility
+    city: Berlin
+    country: DE
+
+# List of editors of the dataset. Will be part of the default citation!
+editor:
+  - given: 
+    family: 
+    email: 
+    orcid: 
+    organisation:
+    rorid: 
+    city: 
+    state: 
+    country: 
+  - given: 
+    family: 
+    email: 
+    orcid: 
+    organisation:
+    rorid: 
+    city: 
+    state: 
+    country: 
+
+# Single publishing organisation. Will be part of the default citation!
+publisher:         
+  rorid: 
+  organisation:
+  department: 
+  city: 
+  state: 
+  country: 
+
+# Agent contributing to the dataset in any other way, but who is not considered an author of the dataset
+# Use the optional note field to specify the kind of contribution, e.g. "Review of Pacific species" or "IT support"
+contributor:
+  - given: 
+    family: 
+    orcid: 
+    organisation: 
+    department: 
+    city: 
+    state: 
+    country:
+    note: 
+   - given: 
+    family: 
+    orcid: 
+    organisation: 
+    department: 
+    city: 
+    state: 
+    country:
+    note: 
+
+# Description of the geographical scope of the dataset
+geographicScope: global
+
+# Taxonomic scope of the dataset
+taxonomicScope: Cephalaspidomorphi, Sarcopterygii, Elasmobranchii, Holocephali, Actinopterygii, Myxini
+
+# Taxonomic scope of the dataset given as English vernacular name(s)
+taxonomicScopeInEnglish: Fishes
+
+# Temporal scope of the dataset
+temporalScope: Extant taxa described until 1987
+
+# Integer between 1-5 with 5 expressing highest confidence in quality of the data
+confidence: 5
+
+# 0-100 to express the completeness of the dataset in regards to the defined scope
+completeness: 95
+
+# Any Open Definition license ID: https://licenses.opendefinition.org/licenses/groups/all.json
+# Must be CC0-1.0 or CC-BY-4.0 to be used by COL !!!
+license: CC0-1.0
+
+# Link to a website for the dataset
+url: https://www.example.org
+
+# URL to large logo image
+logo: https://www.example.org/images/logo.png
+
+
+# List of Citations this dataset is derived from.
+# We use CSL-JSON fields to represent a structured citation, see below for the main fields used for bibliographies.
+#
+# NAME fields:
+# are lists of people represented either by a simple string or objects with family & given fields.
+# In case no parsed name can be provided, simple strings will be parsed.
+# For the parsing to given and family name to correctly work it is highly recommended to use one of the following formats:
+#   1) GivenName FamilyName: Only use this in case the last name is a single token. There can be many first names e.g. John Paul Sartre
+#   2) FamilyName, GivenName: Supports any conmplex last name. E.g. Brinch Hansen, Per
+#
+# DATE fields:
+# are ISO dates that can be truncated to represent a year, year & month or exact date: 1998, 1998-05 or 1998-05-21
+#
+source:
+  # example record
+  - id: ecf
+    type: book
+    title: Eschmeyer's Catalog of Fishes
+    editor: 
+      - given: Ron
+        family: Fricke
+      - given: Richard
+        family: van der Laan
+      - given: William N.
+        family: Eschmeyer
+    issued: 2021-04
+    version: 13 April 2021 
+    url: https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp
+
+  # Full list of supported CSL fields:
+  - id: # identifier for the source, can be referenced from individual data records via sourceID to indicate the provenance on a record level.
+    type: # CSL type, e.g. ARTICLE-JOURNAL, BOOK, CHAPTER, DATASET, WEBPAGE. See https://aurimasv.github.io/z2csl/typeMap.xml for a mapping of CSL types to field sets
+    doi: # a DOI
+    author: # author list. type=NAME[]
+    editor: # editor list. type=NAME[]
+    title: # primary title of the item
+    containerAuthor: # author(s) of the container holding the item (e.g. the book author for a book chapter). type=NAME[]
+    containerTitle: # title of the container holding the item (e.g. the book title for a book chapter, the journal title for a journal article)
+    issued: # date the item was issued/published in possibly truncated ISO format, e.g. 1998, 1998-05 or 1998-05-21. type=DATE
+    accessed: # date the item has been accessed. type=DATE
+    collectionTitle: # title of the collection holding the item (e.g. the series title for a book)
+    collectionEditor: # editor(s) of the collection holding the item (e.g. the series editor for a book). type=NAME[]
+    volume: # (container) volume holding the item (e.g. “2” when citing a chapter from book volume 2). type=NUMBER
+    issue: # (container) issue holding the item (e.g. “5” when citing a journal article from journal volume 2, issue 5). type=NUMBER
+    edition: # (container) edition holding the item (e.g. “3” when citing a chapter in the third edition of a book). type=NUMBER
+    page: # range of pages the item (e.g. a journal article) covers in a container (e.g. a journal issue)
+    publisher: # publisher
+    publisherPlace: # geographic location of the publisher
+    version: # version of the dataset/source
+    isbn: # International Standard Book Number
+    issn: # International Standard Serial Number
+    url: # link to webpage for electronic resources
+    note: # (short) inline note giving additional item details (e.g. a concise summary or commentary)  
+
+notes: Remarks, comments and usage notes about this dataset

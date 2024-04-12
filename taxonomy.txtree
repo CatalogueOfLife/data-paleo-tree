@@ -1,0 +1,23 @@
+Plantae [kingdom]
+  Pinales [order]
+    Pinaceae Spreng. [family]
+      Abietoideae [subfamily]
+        Abies [genus]
+          Abies alba Mill. [species]
+            *Pinus picea L. [species] # a synonym is prefixed by an asterisk
+          Abies balsamea (L.) Mill. [species]
+            *$Pinus balsamea L. [species]   # this is the basionym of A. balsamea, considered a synonym
+Animalia [kingdom]
+  Annelida [phylum]
+    Polychaeta [class]
+      Araneae [order]
+        Mygalomorphae [suborder]
+          Theraphosidae [family]
+            Theraphosinae [subfamily]
+              Aphonopelma Pocock, 1901 [genus] {ENV=terrestrial}
+                Aphonopelma johnnycashi Hamilton, Hendrixson & Bond, 2016 [species] {PUB=Hamilton_2016}
+      Eunicida [order]
+        Kalloprionidae Kielan-Jaworowska, 1966 [family]
+          †Kalloprion Kielan-Jaworowska, 1962 [genus] {PUB=KJ1962}
+            †Kalloprion ovalis Kielan-Jaworowska, 1962 [species] {PUB=KJ1962 ENV=marine}
+            †Kalloprion kilmisteri [species] {PUB=Eriksson_2006 ENV=marine}
