@@ -25,3 +25,14 @@ For example by using curl on the terminal like this:
     title = {Polychaete jaw apparatuses and scolecodonts from the Silurian Ireviken Event interval of Gotland, Sweden},
     journal = {{GFF}}
 }
+
+## Example data
+Prefix extinct taxa with the dagger symbol and use the following properties in brackets where needed:
+
+ - `PUB`: the bibtex identifier for the nomenclatural reference where the exact name was originally published
+ - `ENV`: a list of environment values, separated by commas
+ - `CHRONO`: a geochronological time range for the earliest-latest appearance of the taxon. The range is delimited by a hyphen, e.g. `Jurassic-Cretaceous`
+
+```
+    †Kalloprion kilmisteri [species] {PUB=Eriksson_2006 ENV=marine CHRONO=Llandovery-Wenlock}
+```
