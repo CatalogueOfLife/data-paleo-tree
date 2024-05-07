@@ -1,2 +1,8 @@
 Animalia [kingdom]
   Arthropoda [phylum]
+    †Artiopoda [subphylum] {REF=Lerosey_Aubril_2017 LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=308386}
+      †Trilobitomorpha [superclass] {REF=Lerosey_Aubril_2017 LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=462037}
+        †Trilobita [class]
+        †Xandarellida [order]
+        †Nektaspida [order]
+      †Vicissicaudata [superclass] {REF=Lerosey_Aubril_2017 LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=420649}

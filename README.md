@@ -29,7 +29,9 @@ For example by using curl on the terminal like this:
 ## Example data
 Prefix extinct taxa with the dagger symbol and use the following properties in brackets where needed:
 
+ - `LINK`: URL to primary reference
  - `PUB`: the bibtex identifier for the nomenclatural reference where the exact name was originally published
+ - `REF`: a list of bibtex identifiers for taxonomic references backing up the placement and information, separated by commas
  - `ENV`: a list of environment values, separated by commas
  - `CHRONO`: a geochronological time range for the earliest-latest appearance of the taxon. The range is delimited by a hyphen, e.g. `Jurassic-Cretaceous`
 
