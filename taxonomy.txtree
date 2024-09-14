@@ -6,3 +6,6 @@ Animalia [kingdom]
         †Xandarellida [order]
         †Nektaspida [order] {CHRONO=Atdabanian-Hirnantian LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=474705}
       †Vicissicaudata [superclass] {REF=Lerosey_Aubril_2017 CHRONO=Atdabanian-Pusgillian LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=420649}
+  Porifera [phylum]
+    †Archaeocyatha [class]
+      †Acanthinocyathida [order]
