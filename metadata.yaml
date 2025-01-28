@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/CatalogueOfLife/coldp/master/metadata.json
 
-alias: COL-PALEO
+alias: COL Paleo
 title: COL Paleo Classification
 
 description: | 
@@ -11,6 +11,7 @@ keyword:
   - classification
   - COL
   - paleo
+  - XRelease
 
 issued: 2024-04-16
 
@@ -20,7 +21,7 @@ issued: 2024-04-16
 # minor version = new records
 # patch version = bug/typo fix in existing records
 # See also https://mds.3riverswetweather.org/atlas/docs/semver/
-version: 1.0.0
+version: 1.0.1
 
 # Single point of contact for questions
 contact: 
