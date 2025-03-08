@@ -1,4 +1,16 @@
 Animalia [kingdom]
+  Tetrapoda [megaclass]
+   Dinosauria [Superorder] {REF=Benton_2015 Vertebrate Paleontology}
+    Saurischia [order]
+     †Herrerasauridae [Family]
+     Theropoda [suborder]
+     †Coelophysoidea [Infraorder]
+     †Ceratosauria [Infraorder]
+      †Ceratosauridae [Family]
+      †Abelisauridae [Family]
+     Tetanurae [Infraorder]
+      † Megalosauridae [Family]
+      † Spinosauridae [Family]
   Arthropoda [phylum]
     †Artiopoda [subphylum] {REF=Lerosey_Aubril_2017 CHRONO=Early_Cambrian-Late_Permian LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=308386}
       †Trilobitomorpha [superclass] {REF=Lerosey_Aubril_2017 CHRONO=Early_Cambrian-Late_Permian LINK=https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=462037}
