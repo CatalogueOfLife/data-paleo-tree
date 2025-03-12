@@ -1,6 +1,6 @@
 Animalia [kingdom]
   Tetrapoda [megaclass]
-    Dinosauria [superorder] {REF=Benton2015}
+    Dinosauria [superorder] {REF=Benton_2015}
       Saurischia [order]
         †Herrerasauridae [family]
         Theropoda [suborder]
