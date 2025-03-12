@@ -7,5 +7,8 @@ The superorder Dinosauria was included and all the ranks below down to family ba
 Inclusion of Algospongia and two orders below. Based on Vachard, D.; Cózar, P. (2010). An attempt of classification of the Palaeozoic incertae sedis Algospongia. Revista Española de Micropaleontología. 42(2): 129-241.
 
 ### 2024-09-14
+Inclusion of extinct classes and orders in Porifera based on Lerosey-Aubril et al,2017
+
+### 2024-09-14
 
 The Phylum Porifera was included to add clases an orders below. This classification is based on IRMNG-   
